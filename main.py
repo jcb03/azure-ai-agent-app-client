@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from typing import Any
 from pathlib import Path
-
+import azureopenai
 
 # Add references
 from azure.identity import DefaultAzureCredential
@@ -113,6 +113,6 @@ def main():
 
     
 
-
+# Run the main function
 if __name__ == '__main__': 
     main()
